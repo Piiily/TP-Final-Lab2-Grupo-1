@@ -32,3 +32,36 @@
 
 1717440927 c:\users\usuario\onedrive\escritorio\tp final lab2\menusupervision.h
 
+1717446522 source:c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\main.cpp
+	<iostream>
+	<locale.h>
+	<cstring>
+	"clsArchivoContrasenias.h"
+	"clsAuxiliares.h"
+	"clsPacientes.h"
+	"clsTurnosVet.h"
+	"menuVet.h"
+	"menuPelu.h"
+	"menuPetShop.h"
+	"menuSupervision.h"
+	"menuPrincipal.h"
+
+1717446522 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\clsarchivocontrasenias.h
+
+1717446522 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\clsauxiliares.h
+	<ctime>
+
+1717442816 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\clspacientes.h
+
+1717446522 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\clsturnosvet.h
+
+1717446522 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\menuvet.h
+
+1717446522 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\menupelu.h
+
+1717446522 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\menupetshop.h
+
+1717446522 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\menusupervision.h
+
+1717446522 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\menuprincipal.h
+
