@@ -1,9 +1,9 @@
-#ifndef MENUVET_H_INCLUDED
-#define MENUVET_H_INCLUDED
+#ifndef MENUPELU_H_INCLUDED
+#define MENUPELU_H_INCLUDED
 
-void menuVeterinaria(){
+void menuPeluquería(){
      while(true){
-        cout<<"MENÚ VETERINARIA"<<endl;
+        cout<<"MENÚ PELUQUERÍA"<<endl;
         cout<<"---------------------------------------"<<endl;
         cout<<"OPCIÓN 1: "<<endl;
         cout<<"OPCIÓN 2: "<<endl;
@@ -31,4 +31,4 @@ void menuVeterinaria(){
     }
 }
 
-#endif // MENUVET_H_INCLUDED
+#endif // MENUPELU_H_INCLUDED

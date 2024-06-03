@@ -32,8 +32,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="clsPacientes.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="menuPelu.h" />
+		<Unit filename="menuPetShop.h" />
 		<Unit filename="menuPrincipal.h" />
+		<Unit filename="menuVet.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

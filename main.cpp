@@ -3,7 +3,12 @@
 
 using namespace std;
 
+#include "clsPacientes.h"
 #include "menuPrincipal.h"
+#include "menuVet.h"
+#include "menuPelu.h"
+#include "menuPetShop.h"
+
 
 int main()
 {

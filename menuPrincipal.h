@@ -17,6 +17,7 @@ void menuPrincipal(){
 
         switch (opc){
             case 1:
+                menuVeterinaria();
                 break;
             case 2:
                 break;
