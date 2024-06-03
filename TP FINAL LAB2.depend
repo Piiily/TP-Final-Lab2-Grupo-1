@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1717435932 source:c:\users\usuario\onedrive\escritorio\tp final lab2\main.cpp
+	<iostream>
+	<locale.h>
+	"menuPrincipal.h"
+
+1717437437 c:\users\usuario\onedrive\escritorio\tp final lab2\menuprincipal.h
+

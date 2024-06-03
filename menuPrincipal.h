@@ -15,7 +15,7 @@ void menuPrincipal(){
         int opc;
         cin>>opc;
 
-        switch (opc):
+        switch (opc){
             case 1:
                 break;
             case 2:
@@ -27,6 +27,8 @@ void menuPrincipal(){
             case 0:
                 cout<<"CERRANDO RPOGRAMA :("<<endl;
                 return;
+        }
+        system("cls");
     }
 }
 
