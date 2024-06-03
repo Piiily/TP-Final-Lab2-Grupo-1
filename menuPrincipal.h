@@ -14,14 +14,17 @@ void menuPrincipal(){
         cout<<"Ingrese la opción:";
         int opc;
         cin>>opc;
+        system("cls");
 
         switch (opc){
             case 1:
                 menuVeterinaria();
                 break;
             case 2:
+                menuPetShop();
                 break;
             case 3:
+                menuPeluqueria();
                 break;
             case 4:
                 break;

@@ -1,7 +1,7 @@
 #ifndef MENUPELU_H_INCLUDED
 #define MENUPELU_H_INCLUDED
 
-void menuPeluquería(){
+void menuPeluqueria(){
      while(true){
         cout<<"MENÚ PELUQUERÍA"<<endl;
         cout<<"---------------------------------------"<<endl;
@@ -14,6 +14,7 @@ void menuPeluquería(){
         cout<<"Ingrese la opción:";
         int opc;
         cin>>opc;
+        system("cls");
 
         switch (opc){
             case 1:

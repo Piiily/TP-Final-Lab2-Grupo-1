@@ -32,11 +32,15 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="clsArchivoContrasenias.h" />
+		<Unit filename="clsAuxiliares.h" />
 		<Unit filename="clsPacientes.h" />
+		<Unit filename="clsTurnosVet.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="menuPelu.h" />
 		<Unit filename="menuPetShop.h" />
 		<Unit filename="menuPrincipal.h" />
+		<Unit filename="menuSupervision.h" />
 		<Unit filename="menuVet.h" />
 		<Extensions />
 	</Project>

@@ -5,7 +5,7 @@ void menuVeterinaria(){
      while(true){
         cout<<"MENÚ VETERINARIA"<<endl;
         cout<<"---------------------------------------"<<endl;
-        cout<<"OPCIÓN 1: "<<endl;
+        cout<<"OPCIÓN 1: Agregar turno"<<endl;
         cout<<"OPCIÓN 2: "<<endl;
         cout<<"OPCIÓN 3: "<<endl;
         cout<<"OPCIÓN 4: "<<endl;
@@ -14,6 +14,7 @@ void menuVeterinaria(){
         cout<<"Ingrese la opción:";
         int opc;
         cin>>opc;
+        system("cls");
 
         switch (opc){
             case 1:

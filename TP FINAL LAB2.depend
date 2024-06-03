@@ -1,8 +1,34 @@
 # depslib dependency file v1.0
-1717435932 source:c:\users\usuario\onedrive\escritorio\tp final lab2\main.cpp
+1717442223 source:c:\users\usuario\onedrive\escritorio\tp final lab2\main.cpp
 	<iostream>
 	<locale.h>
+	<cstring>
+	"clsArchivoContrasenias.h"
+	"clsAuxiliares.h"
+	"clsPacientes.h"
+	"clsTurnosVet.h"
+	"menuVet.h"
+	"menuPelu.h"
+	"menuPetShop.h"
+	"menuSupervision.h"
 	"menuPrincipal.h"
 
-1717437437 c:\users\usuario\onedrive\escritorio\tp final lab2\menuprincipal.h
+1717441888 c:\users\usuario\onedrive\escritorio\tp final lab2\menuprincipal.h
+
+1717439283 c:\users\usuario\onedrive\escritorio\tp final lab2\clspacientes.h
+
+1717441752 c:\users\usuario\onedrive\escritorio\tp final lab2\clsturnosvet.h
+
+1717440068 c:\users\usuario\onedrive\escritorio\tp final lab2\menuvet.h
+
+1717439806 c:\users\usuario\onedrive\escritorio\tp final lab2\menupelu.h
+
+1717439805 c:\users\usuario\onedrive\escritorio\tp final lab2\menupetshop.h
+
+1717443695 c:\users\usuario\onedrive\escritorio\tp final lab2\clsarchivocontrasenias.h
+
+1717441740 c:\users\usuario\onedrive\escritorio\tp final lab2\clsauxiliares.h
+	<ctime>
+
+1717440927 c:\users\usuario\onedrive\escritorio\tp final lab2\menusupervision.h
 

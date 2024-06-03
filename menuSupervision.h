@@ -1,9 +1,9 @@
-#ifndef MENUPETSHOP_H_INCLUDED
-#define MENUPETSHOP_H_INCLUDED
+#ifndef MENUSUPERVISION_H_INCLUDED
+#define MENUSUPERVISION_H_INCLUDED
 
-void menuPetShop(){
+void menuSupervision(){
     while(true){
-        cout<<"MENÚ PETSHOP"<<endl;
+        cout<<"MENÚ SUPERVISION"<<endl;
         cout<<"---------------------------------------"<<endl;
         cout<<"OPCIÓN 1: "<<endl;
         cout<<"OPCIÓN 2: "<<endl;
@@ -32,4 +32,4 @@ void menuPetShop(){
     }
 }
 
-#endif // MENUPETSHOP_H_INCLUDED
+#endif // MENUSUPERVISION_H_INCLUDED
