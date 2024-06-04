@@ -27,6 +27,11 @@ void menuPrincipal(){
                 menuPeluqueria();
                 break;
             case 4:
+                menuSupervision();
+//                validacionMenu();
+                break;
+            case 5:
+//                NuevaClave();
                 break;
             case 0:
                 cout<<"CERRANDO RPOGRAMA :("<<endl;
