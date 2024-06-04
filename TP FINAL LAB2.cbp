@@ -33,6 +33,7 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="clsArchivoContrasenias.h" />
+		<Unit filename="clsArchivoTurnosVet.h" />
 		<Unit filename="clsAuxiliares.h" />
 		<Unit filename="clsPacientes.h" />
 		<Unit filename="clsPeluqueria.h" />

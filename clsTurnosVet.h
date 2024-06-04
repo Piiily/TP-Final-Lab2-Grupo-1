@@ -3,11 +3,23 @@
 
 ///No terminada
 
-class TurnosVeterinaria{
+class TurnosVet{
 private:
     Fecha fechaTurno;
-//    Paciente paciente;
+    Pacientes paciente;
+    char *causaConsulta;
+    char *observaciones;
     public:
+///Consultar sobre como usar los vectores dinamicos a la hora de ingresar datos.
+//        void Cargar(){
+//            cout<<"Ingresar fecha del turno a reservar: ";
+//            cin>>fechaTurno.cargar();
+//            paciente.Cargar();
+//            cout<<"Ingrese la causa de la consulta: ";
+//            cin>>causaConsulta;
+//            cout<<"Ingrese un Observaciones: ";
+//            cin>>observaciones;
+//        }
 
 };
 
