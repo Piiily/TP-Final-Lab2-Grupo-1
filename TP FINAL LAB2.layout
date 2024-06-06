@@ -2,11 +2,26 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
+<<<<<<< HEAD
 	<File name="clsAuxiliares.h" open="1" top="1" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+=======
+	<File name="menuPrincipal.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="572" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="clsAuxiliares.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="298" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="clsTurnosVet.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+>>>>>>> db5ca3af3aa371e375d366c4efd8b3e677387b6d
 		<Cursor>
 			<Cursor1 position="617" topLine="0" />
 		</Cursor>
 	</File>
+<<<<<<< HEAD
 	<File name="clsArchivoContrasenias.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="1203" topLine="0" />
@@ -56,8 +71,51 @@
 		</Cursor>
 	</File>
 	<File name="menuPelu.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+=======
+	<File name="menuVet.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="247" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="menuPelu.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+>>>>>>> db5ca3af3aa371e375d366c4efd8b3e677387b6d
 		<Cursor>
 			<Cursor1 position="563" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="clsArchivoProductos.h" open="1" top="1" tabpos="4" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6569" topLine="231" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="470" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="clsArchivoContrasenias.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="103" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="clsArchivoTurnosVet.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="112" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="clsPacientes.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="64" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="menuPetShop.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2269" topLine="37" />
+		</Cursor>
+	</File>
+	<File name="clsProductos.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2191" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

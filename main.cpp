@@ -6,6 +6,8 @@ using namespace std;
 
 #include "clsArchivoContrasenias.h"
 #include "clsAuxiliares.h"
+#include "clsProductos.h"
+#include "clsArchivoProductos.h"
 #include "clsPacientes.h"
 #include "clsTurnosVet.h"
 #include "menuVet.h"
@@ -14,6 +16,7 @@ using namespace std;
 #include "menuSupervision.h"
 #include "menuPrincipal.h"
 
+
 int main()
 {
     setlocale(LC_CTYPE, "Spanish");
@@ -21,3 +24,4 @@ int main()
     menuPrincipal();
     return 0;
 }
+
