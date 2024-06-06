@@ -7,11 +7,22 @@ private:
     int dni;
     int numeroTelefono;
     char historialPaciente[100];
-    char veterinarioCabecera[30];
-    char tipoMascota[20];
+    int veterinarioCabecera;
+    int tipoMascota;
     char descripcion[100];
-    char estadoPaciente[20];
+    int estadoPaciente;
+    bool estado;
 public:
+    //sets
+    void setDNI (int d){dni=d;}
+    //gets
+    const char* getNombre(){return nombre;}
+    int getDNI(){return dni;}
+    int getNroTelefono(){return numeroTelefono;}
+    int getEstadoPaciente(){return estadoPaciente;}
+    bool getEstado(){return estado;}
+    int getTipo(){return tipoMascota;}
+    //
     void Cargar(){
         cout << "Nombre de paciente: " << endl;
         cargarCadena(nombre, 30);
@@ -19,26 +30,60 @@ public:
         cin >> dni;
         cout << "Numero de telefono: " << endl;
         cin >> numeroTelefono;
-        cout << "Historial del paciente: " << endl;
-        cargarCadena(historialPaciente, 100);
-        cout << "Veterinario de cabecera: " << endl;
-        cargarCadena(veterinarioCabecera, 30);
-        cout << "Tipo de mascota: " << endl;
-        cargarCadena(tipoMascota, 20);
+        cout << "Veterinario de cabecera (DNI): " << endl;
+        cin>>veterinarioCabecera;
+        cout << "Tipo de mascota: "<<endl;
+        cout<<"1 - Gato Hembra"<<endl;
+        cout<<"2 - Gato Macho"<<endl;
+        cout<<"3 - Perro Hembra"<<endl;
+        cout<<"4 - Perro Macho"<<endl;
+        cout<<"5 - Otro"<<endl;
+        cin>>tipoMascota;
         cout << "Descripcion: " << endl;
         cargarCadena(descripcion, 100);
         cout << "Estado del paciente: " << endl;
-        cargarCadena(estadoPaciente, 20);
+        cout<<"1 - Paciente de consulta"<<endl;
+        cout<<"2 - Paciente en tratamiento"<<endl;
+        cout<<"3 - Paciente internado"<<endl;
+        cin>>estadoPaciente;
+        estado=true;
     }
     void Mostrar(){
         cout << "Nombre de paciente: " << nombre << endl;
-        cout << "Dni del duenio: " << dni << endl;
+        cout << "Dni del dueño: " << dni << endl;
         cout << "Numero de telefono: " << numeroTelefono << endl;
-        cout << "Historial del paciente: " << historialPaciente << endl;
-        cout << "Veterinario de cabecera: " << veterinarioCabecera << endl;
-        cout << "Tipo de mascota: " << tipoMascota << endl;
+        cout << "Veterinario de cabecera (DNI): " << veterinarioCabecera << endl; ///Ahcer el clsArchivo de personal para mostrar el nombre
+        cout << "Tipo de mascota: ";
+        switch (tipoMascota){
+        case 1:
+            cout<<"Gato Hembra"<<endl;
+            break;
+        case 2:
+            cout<<"Gato Macho"<<endl;
+            break;
+        case 3:
+            cout<<"Perro Hembra"<<endl;
+            break;
+        case 4:
+            cout<<"Perro Macho"<<endl;
+            break;
+        case 5:
+            cout<<"otro (detalle en  la descripción)"<<endl;
+            break;
+        }
         cout << "Descripcion: " << descripcion << endl;
-        cout << "Estado del paciente: " << estadoPaciente << endl;
+        cout << "Estado del paciente: ";
+        switch(estadoPaciente){
+        case 1:
+            cout<<"Paciente de consulta"<<endl;
+            break;
+        case 2:
+            cout<<"Paciente En tratamiento"<<endl;
+            break;
+        case 3:
+            cout<<"Paciente internado"<<endl;
+            break;
+        }
     }
 
 };

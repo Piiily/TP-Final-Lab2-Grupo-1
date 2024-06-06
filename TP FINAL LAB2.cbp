@@ -33,6 +33,7 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="clsArchivoContrasenias.h" />
+		<Unit filename="clsArchivoPacientes.cpp" />
 		<Unit filename="clsArchivoProductos.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>

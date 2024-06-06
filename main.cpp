@@ -9,6 +9,7 @@ using namespace std;
 #include "clsProductos.h"
 #include "clsArchivoProductos.h"
 #include "clsPacientes.h"
+#include "clsArchivoPacientes.h"
 #include "clsTurnosVet.h"
 #include "menuVet.h"
 #include "menuPelu.h"
