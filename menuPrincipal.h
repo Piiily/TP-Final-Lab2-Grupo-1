@@ -11,7 +11,7 @@ void menuPrincipal(){
         cout<<"OPCIÓN 4: MENÚ SUPERVISIÓN"<<endl;
         cout<<"OPCIÓN 0: CERRAR"<<endl;
         cout<<"---------------------------------------"<<endl;
-        cout<<"Ingrese la opción:";
+        cout<<"Ingrese una opción: ";
         int opc;
         cin>>opc;
         system("cls");
