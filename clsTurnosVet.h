@@ -10,7 +10,7 @@ private:
     char *causaConsulta;
     char *observaciones;
     public:
-///Consultar sobre como usar los vectores dinamicos a la hora de ingresar datos.
+
 //        void Cargar(){
 //            cout<<"Ingresar fecha del turno a reservar: ";
 //            cin>>fechaTurno.cargar();
