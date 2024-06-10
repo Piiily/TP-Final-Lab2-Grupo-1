@@ -39,6 +39,7 @@
 		<Unit filename="clsArchivoTurnosPelu.h" />
 		<Unit filename="clsArchivoTurnosVet.h" />
 		<Unit filename="clsAuxiliares.h" />
+		<Unit filename="clsClientes.h" />
 		<Unit filename="clsPacientes.h" />
 		<Unit filename="clsPeluqueria.h" />
 		<Unit filename="clsPersonal.h" />

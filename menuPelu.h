@@ -2,7 +2,7 @@
 #define MENUPELU_H_INCLUDED
 #include "clsArchivoPersonal.h"
 
-void agendarTurno();
+void agendarTurnoPelu();
 void tipoDeServicios();
 void personalDisponible();
 void registrarCliente();
@@ -24,7 +24,7 @@ void menuPeluqueria(){
 
         switch (opc){
             case 1:
-                agendarTurno();
+                agendarTurnoPelu();
                 break;
             case 2:
                 registrarCliente();
@@ -42,7 +42,7 @@ void menuPeluqueria(){
     }
 }
 
-void agendarTurno() {
+void agendarTurnoPelu() {
    ArchivosTurnosPelu obj;
    TurnosPelu turno;
    turno.Cargar();

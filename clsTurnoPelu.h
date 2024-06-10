@@ -5,41 +5,22 @@
 
 class TurnosPelu {
 private:
-    Fecha fechaTurno;
-    char nombreCliente[30];
-    int dniDuenio;
-    int numeroTelefono;
-    int tipoMascota;
-    char descripcion [100];
-    int tipoServicio;
-    bool estado;
+    Fecha _fechaTurno;
+    Clientes _cliente;
+    int _tipoServicio;
+    bool _estado;
 public:
      // sets
-     void setFechaTurnoPelu (Fecha f){fechaTurno = f;}
-     void setEstado(bool e){estado=e;}
+     void setFechaTurnoPelu (Fecha f){_fechaTurno = f;}
+     void setEstado(bool e){_estado=e;}
      // gets
-     Fecha getFechaTurnoVet(){return fechaTurno;}
-     bool getEstado(){return estado;}
-     int getDNIDuenio(){return dniDuenio;}
+     Fecha getFechaTurnoVet(){return _fechaTurno;}
+     bool getEstado(){return _estado;}
+     //métodos
      void Cargar(){
         cout << "Dia del turno: " << endl;
-        fechaTurno.cargar();
-        cout << "Nombre de paciente: ";
-        cargarCadena(nombreCliente, 30);
-        cout << "Dni del dueño: ";
-        cin >> dniDuenio;
-        cout << "Numero de telefono: ";
-        cin >> numeroTelefono;
-        cout << "Tipo de mascota: "<<endl;
-        cout << "1 - Gato Hembra"<<endl;
-        cout << "2 - Gato Macho"<<endl;
-        cout << "3 - Perro Hembra"<<endl;
-        cout << "4 - Perro Macho"<<endl;
-        cout << "5 - Otro"<<endl;
-        cout << "Ingresar numero: ";
-        cin>>tipoMascota;
-        cout << "Descripcion: " << endl;
-        cargarCadena(descripcion, 100);
+        _fechaTurno.cargar();
+        _cliente.CargarC();
         cout << "Tipo de servicio: " << endl;
         cout<<"1 - Corte y peinado de pelo"<<endl;
         cout<<"2 - Baño y secado"<<endl;
@@ -48,36 +29,15 @@ public:
         cout<<"5 - Limpieza de oídos"<<endl;
         cout<<"6 - Limpieza dental"<<endl;
         cout << "Ingresar numero: ";
-        cin>>tipoServicio;
-        estado=true;
+        cin>>_tipoServicio;
+        _estado=true;
     }
     void Mostrar(){
         cout << "Dia del turno: ";
-        fechaTurno.mostrar();
-        cout << "Nombre de paciente: " << nombreCliente << endl;
-        cout << "Dni del dueño: " << dniDuenio << endl;
-        cout << "Numero de telefono: " << numeroTelefono << endl;
-        cout << "Tipo de mascota: ";
-        switch (tipoMascota){
-        case 1:
-            cout<<"Gato Hembra"<<endl;
-            break;
-        case 2:
-            cout<<"Gato Macho"<<endl;
-            break;
-        case 3:
-            cout<<"Perro Hembra"<<endl;
-            break;
-        case 4:
-            cout<<"Perro Macho"<<endl;
-            break;
-        case 5:
-            cout<<"otro (detalle en  la descripción)"<<endl;
-            break;
-        }
-        cout << "Descripcion: " << descripcion << endl;
-        cout << "Estado del paciente: ";
-        switch(tipoServicio){
+        _fechaTurno.mostrar();
+        _cliente.MostrarC();
+        cout << "Tipo de servicio: ";
+        switch(_tipoServicio){
         case 1:
             cout<<"Corte y peinado de pelo"<<endl;
             break;

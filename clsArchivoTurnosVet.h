@@ -13,7 +13,8 @@ public:
     TurnosVet leerRegistro(int pos);
     void listarArchivo();
     int contarRegistros();
-    void buscarTurno();
+    void listarTurnosHoy();
+    int buscarTurno(int dni);
 };
 
 void ArchivosTurnosVet::limpiarArchivo(){
@@ -65,7 +66,7 @@ void ArchivosTurnosVet::listarArchivo(){
     for(int i=0; i<cant; i++){
         obj=leerRegistro(i);
         if(obj.getEstado()==true){
-            obj.mostrar();
+            obj.Mostrar();
             cout<<endl;
         }
     }
@@ -73,28 +74,20 @@ void ArchivosTurnosVet::listarArchivo(){
     system("cls");
 }
 
-void ArchivosTurnosVet::buscarTurno(){
+int ArchivosTurnosVet::buscarTurno(int dni){
     int cant=contarRegistros();
     TurnosVet obj;
-    bool mostrado=false;
-
-    cout<<"Ingrese el DNI del dueño del paciente:"<<endl;
-    int dni;
-    cin>>dni;
 
     for(int i=0; i<cant; i++){
         obj=leerRegistro(i);
-        if(dni==obj.getDNIDueño()){
+        if(dni==obj.getDNI()){
             if(obj.getEstado()){
-                obj.mostrar();
-                cout<<endl;
-                mostrado=true;
+                return i;
             }
         }
     }
-    if(mostrado==false){
-            cout<<"ERROR 404: EL DNI NO COINCIDE."<<endl;
-        }
+    return -1;
+
     system("pause");
     system("cls");
 }
@@ -103,13 +96,19 @@ void ArchivosTurnosVet::listarTurnosHoy(){
     int cant=contarRegistros();
     TurnosVet obj;
     Fecha fechaHoy;
+    Fecha fechaTurno;
     fechaHoy.fechaHoy();
 
     for(int i=0; i<cant; i++){
         obj=leerRegistro(i);
-        if(obj.getFechaTurnoVet==fechaHoy){
-            obj.Mostrar();
-            cout<<endl;
+        fechaTurno=obj.getFechaTurnoVet();
+        if(fechaTurno.getAnio()==fechaHoy.getAnio()){
+            if(fechaTurno.getMes()==fechaHoy.getMes()){
+                if(fechaTurno.getDia()==fechaHoy.getDia()){
+                    obj.Mostrar();
+                    cout<<endl;
+                }
+            }
         }
     }
 

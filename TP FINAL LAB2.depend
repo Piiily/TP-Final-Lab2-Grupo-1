@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1717683397 source:c:\users\usuario\onedrive\escritorio\tp final lab2\main.cpp
+1718044118 source:c:\users\usuario\onedrive\escritorio\tp final lab2\main.cpp
 	<iostream>
 	<locale.h>
 	<cstring>
@@ -7,30 +7,36 @@
 	"clsAuxiliares.h"
 	"clsProductos.h"
 	"clsArchivoProductos.h"
+	"clsClientes.h"
 	"clsPacientes.h"
+	"clsArchivoPacientes.h"
 	"clsTurnosVet.h"
+	"clsArchivoTurnosPelu.h"
+	"clsTurnoPelu.h"
 	"menuVet.h"
 	"menuPelu.h"
 	"menuPetShop.h"
 	"menuSupervision.h"
 	"menuPrincipal.h"
+	"clsArchivoPersonal.h"
 
 1717683397 c:\users\usuario\onedrive\escritorio\tp final lab2\menuprincipal.h
 
-1717691344 c:\users\usuario\onedrive\escritorio\tp final lab2\clspacientes.h
+1718044679 c:\users\usuario\onedrive\escritorio\tp final lab2\clspacientes.h
 
-1717691450 c:\users\usuario\onedrive\escritorio\tp final lab2\clsturnosvet.h
+1718044743 c:\users\usuario\onedrive\escritorio\tp final lab2\clsturnosvet.h
 
-1717440068 c:\users\usuario\onedrive\escritorio\tp final lab2\menuvet.h
+1718046940 c:\users\usuario\onedrive\escritorio\tp final lab2\menuvet.h
 
-1717439806 c:\users\usuario\onedrive\escritorio\tp final lab2\menupelu.h
+1718045303 c:\users\usuario\onedrive\escritorio\tp final lab2\menupelu.h
+	"clsArchivoPersonal.h"
 
 1717683397 c:\users\usuario\onedrive\escritorio\tp final lab2\menupetshop.h
 
 1717527214 c:\users\usuario\onedrive\escritorio\tp final lab2\clsarchivocontrasenias.h
 	"menuSupervision.h"
 
-1717683397 c:\users\usuario\onedrive\escritorio\tp final lab2\clsauxiliares.h
+1718038320 c:\users\usuario\onedrive\escritorio\tp final lab2\clsauxiliares.h
 	<ctime>
 
 1717526640 c:\users\usuario\onedrive\escritorio\tp final lab2\menusupervision.h
@@ -138,5 +144,23 @@
 	"clsPersonal.h"
 
 1718034089 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\clspersonal.h
+	"clsArchivoPersonal.h"
+
+1718044635 c:\users\usuario\onedrive\escritorio\tp final lab2\clsclientes.h
+
+1718044424 c:\users\usuario\onedrive\escritorio\tp final lab2\clsarchivopacientes.h
+	"clsPacientes.h"
+
+1718038320 c:\users\usuario\onedrive\escritorio\tp final lab2\clsarchivoturnospelu.h
+	"clsTurnoPelu.h"
+
+1718044836 c:\users\usuario\onedrive\escritorio\tp final lab2\clsturnopelu.h
+	"clsAuxiliares.h"
+
+1718038320 c:\users\usuario\onedrive\escritorio\tp final lab2\clsarchivopersonal.h
+	<ctime>
+	"clsPersonal.h"
+
+1718038320 c:\users\usuario\onedrive\escritorio\tp final lab2\clspersonal.h
 	"clsArchivoPersonal.h"
 
