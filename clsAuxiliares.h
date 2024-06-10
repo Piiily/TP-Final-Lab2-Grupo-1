@@ -39,4 +39,19 @@ void Fecha::fechaHoy(){
     anio=now->tm_year+1900;
 }
 
+void Fecha::cargar(){
+     cout<<"DIA: ";
+        cin>>dia;
+        cout<<"MES: ";
+        cin>>mes;
+        cout<<"ANIO: ";
+        cin>>anio;
+}
+
+void Fecha::mostrar(){
+    cout<<dia<<"/";
+    cout<<mes<<"/";
+    cout<<anio<<endl;
+}
+
 #endif // CLSAUXILIARES_H_INCLUDED

@@ -11,11 +11,14 @@ using namespace std;
 #include "clsPacientes.h"
 #include "clsArchivoPacientes.h"
 #include "clsTurnosVet.h"
+#include "clsArchivoTurnosPelu.h"
+#include "clsTurnoPelu.h"
 #include "menuVet.h"
 #include "menuPelu.h"
 #include "menuPetShop.h"
 #include "menuSupervision.h"
 #include "menuPrincipal.h"
+#include "clsArchivoPersonal.h"
 
 
 int main()

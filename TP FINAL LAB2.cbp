@@ -33,10 +33,10 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="clsArchivoContrasenias.h" />
-		<Unit filename="clsArchivoPacientes.cpp" />
 		<Unit filename="clsArchivoProductos.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="clsArchivoTurnosPelu.h" />
 		<Unit filename="clsArchivoTurnosVet.h" />
 		<Unit filename="clsAuxiliares.h" />
 		<Unit filename="clsPacientes.h" />
@@ -45,6 +45,7 @@
 		<Unit filename="clsProductos.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="clsTurnoPelu.h" />
 		<Unit filename="clsTurnosVet.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="menuPelu.h" />
