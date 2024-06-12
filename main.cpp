@@ -21,6 +21,7 @@ using namespace std;
 #include "menuSupervision.h"
 #include "menuPrincipal.h"
 #include "clsArchivoPersonal.h"
+#include "clsArchivoClientes.h"
 
 
 int main()

@@ -41,7 +41,7 @@
 
 1717526640 c:\users\usuario\onedrive\escritorio\tp final lab2\menusupervision.h
 
-1718033608 source:c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\main.cpp
+1718208046 source:c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\main.cpp
 	<iostream>
 	<locale.h>
 	<cstring>
@@ -49,9 +49,11 @@
 	"clsAuxiliares.h"
 	"clsProductos.h"
 	"clsArchivoProductos.h"
+	"clsClientes.h"
 	"clsPacientes.h"
 	"clsArchivoPacientes.h"
 	"clsTurnosVet.h"
+	"clsArchivoTurnosVet.h"
 	"clsArchivoTurnosPelu.h"
 	"clsTurnoPelu.h"
 	"menuVet.h"
@@ -60,6 +62,7 @@
 	"menuSupervision.h"
 	"menuPrincipal.h"
 	"clsArchivoPersonal.h"
+	"clsArchivoClientes.h"
 
 1717688835 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\clsarchivocontrasenias.h
 	"menuSupervision.h"
@@ -67,14 +70,15 @@
 1718033734 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\clsauxiliares.h
 	<ctime>
 
-1717967623 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\clspacientes.h
+1718206439 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\clspacientes.h
 
-1717967623 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\clsturnosvet.h
+1718206439 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\clsturnosvet.h
 
-1717981883 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\menuvet.h
+1718206439 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\menuvet.h
 
-1718034230 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\menupelu.h
+1718208133 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\menupelu.h
 	"clsArchivoPersonal.h"
+	"clsArchivoClientes.h"
 
 1717981342 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\menupetshop.h
 
@@ -133,7 +137,7 @@
 1717967623 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\clsarchivopacientes.h
 	"clsPacientes.h"
 
-1718027883 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\clsturnopelu.h
+1718206439 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\clsturnopelu.h
 	"clsAuxiliares.h"
 
 1718029200 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\clsarchivoturnospelu.h
@@ -163,4 +167,10 @@
 
 1718038320 c:\users\usuario\onedrive\escritorio\tp final lab2\clspersonal.h
 	"clsArchivoPersonal.h"
+
+1718206439 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\clsclientes.h
+
+1718206439 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\clsarchivoturnosvet.h
+
+1718208066 c:\users\lucho\desktop\tpintegrador\tp-final-lab2-grupo-1\clsarchivoclientes.h
 

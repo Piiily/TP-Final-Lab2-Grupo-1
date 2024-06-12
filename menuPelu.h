@@ -1,6 +1,7 @@
 #ifndef MENUPELU_H_INCLUDED
 #define MENUPELU_H_INCLUDED
 #include "clsArchivoPersonal.h"
+#include "clsArchivoClientes.h"
 
 void agendarTurnoPelu();
 void tipoDeServicios();
@@ -75,6 +76,10 @@ void personalDisponible(){
 }
 
 void registrarCliente(){
+    ArchivoClientes obj;
+    Clientes _clientes;
+    _clientes.CargarC();
+    obj.grabarRegistro(_clientes);
 }
 
 #endif // MENUPELU_H_INCLUDED
