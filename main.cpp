@@ -23,7 +23,6 @@ using namespace std;
 #include "clsArchivoPersonal.h"
 #include "clsArchivoClientes.h"
 
-
 int main()
 {
     setlocale(LC_CTYPE, "Spanish");

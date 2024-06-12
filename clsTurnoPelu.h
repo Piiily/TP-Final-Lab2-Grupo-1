@@ -2,6 +2,7 @@
 #define CLSTURNOPELU_H_INCLUDED
 
 #include "clsAuxiliares.h"
+#include "clsArchivoClientes.h"
 
 class TurnosPelu {
 private:
@@ -14,13 +15,18 @@ public:
      void setFechaTurnoPelu (Fecha f){_fechaTurno = f;}
      void setEstado(bool e){_estado=e;}
      // gets
-     Fecha getFechaTurnoVet(){return _fechaTurno;}
+     Fecha getFechaTurnoPelu(){return _fechaTurno;}
      bool getEstado(){return _estado;}
      //métodos
      void Cargar(){
+        ArchivoClientes archivoClientes;
+        int d;
+        cout << "Ingresar dni: " << endl;
+        cin >> d;
+        if (archivoClientes.existeElCliente(d)){
         cout << "Dia del turno: " << endl;
         _fechaTurno.cargar();
-        _cliente.CargarC();
+        _cliente.CargarC(d);
         cout << "Tipo de servicio: " << endl;
         cout<<"1 - Corte y peinado de pelo"<<endl;
         cout<<"2 - Baño y secado"<<endl;
@@ -31,6 +37,10 @@ public:
         cout << "Ingresar numero: ";
         cin>>_tipoServicio;
         _estado=true;
+         } else {
+             cout << "El cliente no esta registrado" << endl;
+             system("pause");
+         }
     }
     void Mostrar(){
         cout << "Dia del turno: ";

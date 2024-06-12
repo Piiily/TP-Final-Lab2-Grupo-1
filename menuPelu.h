@@ -1,5 +1,6 @@
 #ifndef MENUPELU_H_INCLUDED
 #define MENUPELU_H_INCLUDED
+
 #include "clsArchivoPersonal.h"
 #include "clsArchivoClientes.h"
 
@@ -7,6 +8,8 @@ void agendarTurnoPelu();
 void tipoDeServicios();
 void personalDisponible();
 void registrarCliente();
+void prueba();
+void prueba2();
 
 void menuPeluqueria(){
      while(true){
@@ -16,6 +19,8 @@ void menuPeluqueria(){
         cout<<"OPCION 2: REGISTRAR CLIENTE"<<endl;
         cout<<"OPCION 3: TIPOS DE SERVICIOS"<<endl;
         cout<<"OPCION 4: PERSONAL DISPONIBLE"<<endl;
+        cout<<"OPCION 5: LISTAR TODO" << endl;
+        cout<<"OPCION 6: CHEQUEAR DNI" << endl;
         cout<<"OPCIÓN 0: VOLVER ATRÁS"<<endl;
         cout<<"---------------------------------------"<<endl;
         cout<<"Ingrese la opción:";
@@ -78,7 +83,7 @@ void personalDisponible(){
 void registrarCliente(){
     ArchivoClientes obj;
     Clientes _clientes;
-    _clientes.CargarC();
+    _clientes.CargarC(-1);
     obj.grabarRegistro(_clientes);
 }
 

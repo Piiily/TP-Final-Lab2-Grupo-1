@@ -18,7 +18,7 @@ public:
     int getTipo(){getTipoMascota();}
     //
     void Cargar(){
-        Clientes::CargarC();
+        Clientes::CargarC(-1);
         cout << "Veterinario de cabecera (DNI): " << endl;
         cin>>_veterinarioCabecera;
         cout << "Estado del paciente: " << endl;

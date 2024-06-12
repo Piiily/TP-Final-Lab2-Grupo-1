@@ -20,11 +20,13 @@ protected:
     //sets
 
     //métodos
-    void CargarC(){
+    void CargarC(int d){
         cout << "Nombre: " << endl;
         cargarCadena(_nombre, 30);
+        if (d == -1) {
         cout << "Dni del dueño: " << endl;
         cin >> _DNI;
+        } else { _DNI = d;}
         cout << "Numero de telefono: " << endl;
         cin >> _nroTelefono;
         cout << "Tipo de mascota: "<<endl;
